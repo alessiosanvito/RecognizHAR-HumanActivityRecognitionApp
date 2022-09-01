@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu_app">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="@string/titolo_home" />
+
+        <item
+            android:id="@+id/nav_data"
+            android:icon="@drawable/data_icon"
+            android:title="@string/titolo_data" />
+
+        <item
+            android:id="@+id/nav_chart"
+            android:icon="@drawable/chart_icon"
+            android:title="@string/titolo_chart" />
+
+        <item
+            android:id="@+id/nav_infoapp"
+            android:icon="@drawable/info_icon"
+            android:title="@string/titolo_info" />
+
+    </group>
+</menu>

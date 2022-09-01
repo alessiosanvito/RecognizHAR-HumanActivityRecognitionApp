@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Rosso"> #FFFF0000</color>
+    <color name="Blu_elet">#FF0000FF</color>
+    <color name="Verde">#00FF00</color>
+    <color name="Grigio">#ededed</color>
+    <color name="Blu_scuro">#0f034f</color>
+    <color name="Trasparente">#00000000</color>
+    <color name="Blu_card1">#86C4E0</color>
+    <color name="Blu_card2">#A9D3E5</color>
+    <color name="Blu_card3">#CDECF7</color>
+    <color name="Blu_riga_tabella">#4796e5</color>
+    <color name="Grigio_dark">#292929</color>
+    <color name="Status_bar">#19387f</color>
+    <color name="Toolbar">#294993</color>
+    <color name="Tabella">#F4F4F4</color>
+
+</resources>

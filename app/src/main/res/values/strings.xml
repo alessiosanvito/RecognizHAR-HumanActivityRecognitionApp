@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">RecognizHAR</string>
+    <string name="string_acc_x">Asse X: %1$.2f</string>
+    <string name="string_acc_y">Asse Y: %1$.2f</string>
+    <string name="string_acc_z">Asse Z: %1$.2f</string>
+    <string name="string_gyr_x">Asse X: %1$.2f</string>
+    <string name="string_gyr_y">Asse Y: %1$.2f</string>
+    <string name="string_gyr_z">Asse Z: %1$.2f</string>
+    <string name="string_linacc_x">Asse X: %1$.2f</string>
+    <string name="string_linacc_y">Asse Y: %1$.2f</string>
+    <string name="string_linacc_z">Asse Z: %1$.2f</string>
+    <string name="titolo_att">Attività rilevata</string>
+    <string name="titolo_prob">Probabilità</string>
+    <string name="nome_att1">Biking</string>
+    <string name="nome_att2">Downstairs</string>
+    <string name="nome_att3">Jogging</string>
+    <string name="nome_att4">Sitting</string>
+    <string name="nome_att5">Standing</string>
+    <string name="nome_att6">Upstairs</string>
+    <string name="nome_att7">Walking</string>
+    <string name="string_benvenuto">Benvenuto!</string>
+    <string name="string_btn_start">Inizia il riconoscimento</string>
+    <string name="string_acc_valori">Accelerometro</string>
+    <string name="string_gyr_valori">Giroscopio</string>
+    <string name="string_acc_lin_valori">Accelerometro lineare</string>
+    <string name="string_descrizione">Questa applicazione è stata realizzata in seguito ad una analisi condotta sulle applicazioni ADL (Activity Daily Living), in particolare quelle che riconoscono le attività umane (HAR, Human Activity Recognition).
+Lo scopo di questa applicazione è quello di fornire una previsione sulla attività che un utente sta svolgendo, ma permette anche di visualizzare i valori rilevati dai sensori principali (acccelerometro, giroscopio, accelerometro lineare che non considera la forza di gravità) e di visualizzare dei grafici real time che rappresentano le variazioni dei valori dei sensori sui tre assi.
+</string>
+    <string name="about_email">Per informazioni o supporto contattare a.sanvito6@campus.unimib.it o s.sanvito10@campus.unimib.it</string>
+    <string name="about_credits">La immagine nella schermata principale è stata presa da GitHub - mohdsaquib98/Human-Activity-Recognition.
+        La immagine utilizzata come icona è stata scaricata da https://www.hackster.io/simone-bartolini/iot-human-activity-recognition-using-aws-02c4fa</string>
+    <string name="string_descrizione_tabella">La attività con la probabilità più alta è quella predetta dal modello come attività in corso.</string>
+    <string name="string_titolo_acc">Grafico relativo a: accelerometro</string>
+    <string name="string_titolo_gyr">Grafico relativo a: giroscopio</string>
+    <string name="string_titolo_lin_acc">Grafico relativo a: accelerometro lineare</string>
+    <string name="string_titolo_data">Rilevamento dati</string>
+    <string name="string_titolo_grafici">Grafici Realtime</string>
+    <string name="string_titolo_ric">Riconoscimento attività</string>
+    <string name="string_titolo_schermata_data">Dati rilevati da:</string>
+    <string name="titolo_home">Home</string>
+    <string name="titolo_data">Dati dei sensori</string>
+    <string name="titolo_chart">Dati sui grafici</string>
+    <string name="titolo_info">App info</string>
+    <string name="link_repo">https://github.com/alessiosanvito/AppADL</string>
+    <string name="string_descrizione_icona">Icona RecognizHAR</string>
+    <string name="navigation_drawer_open">Apri il navigation drawer</string>
+    <string name="navigation_drawer_close">Chiudi il navigation drawer</string>
+    <string name="ok">OK</string>
+    <string name="descr_immagine_mainact">Immagine che rappresenta varie attività della activity recognition</string>
+    <string name="string_descr_service">Service che si occupa della gestione dei sensori</string>
+
+</resources>

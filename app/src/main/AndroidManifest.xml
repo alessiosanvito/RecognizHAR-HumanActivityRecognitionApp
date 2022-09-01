@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.recognizhar">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppADL">
+        <service
+            android:name=".SensorsService"
+            android:description="@string/string_descr_service"></service>
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RecognitionActivity" />
+        <activity android:name=".SensorsActivity" />
+        <activity android:name=".SensorsGraficiActivity" />
+        <receiver
+            android:name=".SensorsActivity$Receiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="com.example.recognizhar.SensorsService.MY_ACTION"></action>
+            </intent-filter>
+        </receiver>
+        <receiver
+        android:name=".SensorsGraficiActivity$ReceiverChart"
+        android:enabled="true">
+        <intent-filter>
+            <action android:name="com.example.recognizhar.SensorsService.MY_ACTION"></action>
+        </intent-filter>
+    </receiver>
+        <receiver
+            android:name=".RecognitionActivity$ReceiverRec"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="com.example.recognizhar.SensorsService.MY_ACTION"></action>
+            </intent-filter>
+        </receiver>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
